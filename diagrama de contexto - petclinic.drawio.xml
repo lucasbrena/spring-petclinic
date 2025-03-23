@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
+  <diagram id="wmYkh0q9C8ZCwfRD37g7" name="Page-1">
+    <mxGraphModel dx="1386" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Veterinarian" style="shape=ellipse;fillColor=#FFCC00;" parent="1" vertex="1">
+          <mxGeometry x="50" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Owner" style="shape=ellipse;fillColor=#FFCC00;" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Spring PetClinic Web Application" style="shape=rectangle;fillColor=#66CCFF;" parent="1" vertex="1">
+          <mxGeometry x="250" y="150" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Spring Boot Backend" style="shape=rectangle;fillColor=#99FF99;" parent="1" vertex="1">
+          <mxGeometry x="520" y="150" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Database (H2/MySQL)" style="shape=cylinder;fillColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="750" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Email / Notification Service" style="shape=rectangle;fillColor=#FFD700;" parent="1" vertex="1">
+          <mxGeometry x="520" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Security Module" style="shape=rectangle;fillColor=#FFD700;" parent="1" vertex="1">
+          <mxGeometry x="750" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" source="5" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZqkg53vRP0bflZkHNP9-19" value="Spring PetClinic - Diagrama de Contexto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="270" y="60" width="550" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
